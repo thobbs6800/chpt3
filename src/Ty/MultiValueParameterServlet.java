@@ -32,7 +32,7 @@ public class MultiValueParameterServlet extends HttpServlet {
 	@Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		response.setContentType("text/hmtl");
+		response.setContentType("text/html");
 		response.setCharacterEncoding("UTF-8");
 		
 		PrintWriter writer = response.getWriter();
